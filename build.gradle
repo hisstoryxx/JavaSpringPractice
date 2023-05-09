@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    // passay : password를 생성해주는 자바 라이브러리
+    implementation 'org.passay:passay:1.6.1'
     // AssertJ
     testImplementation 'org.assertj:assertj-core:3.23.1'
 
